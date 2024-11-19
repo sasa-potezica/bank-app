@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import FacebookShare from "./FacebookShare";
+import TwitterShare from "./TwitterShare";
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -32,6 +34,21 @@ const Hero = () => (
         likely to fit your needs. We examine annual percentage rates, annual
         fees.
       </p>
+      <div>
+        <div>
+          <h1>Share this page!</h1>
+          <FacebookShare url="https://sp-bank-app.netlify.app" />
+        </div>
+        <div>
+          <h1>Share this page on Twitter!</h1>
+          <TwitterShare
+            url="https://sp-bank-app.netlify.app"
+            text="Check out this amazing website!"
+            hashtags="React,Twitter,Share"
+            via="YourTwitterHandle"
+          />
+        </div>
+      </div>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img

@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
@@ -26,12 +26,12 @@ const Billing = () => (
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img
           src={apple}
-          alt="apple_store"
+          alt="Online banking made easy with Apple"
           className="w-[128px] h-[42px] object-contain cursor-pointer mr-5"
         />
         <img
           src={google}
-          alt="google_store"
+          alt="Complete finance control with Google"
           className="w-[128px] h-[42px] object-contain cursor-pointer"
         />
       </div>

@@ -1,0 +1,18 @@
+# Allow all crawlers to index everything
+User-agent: *
+Disallow:
+
+# Disallow crawlers from accessing the admin directory
+User-agent: *
+Disallow: /admin/
+
+# Allow Googlebot to access a specific folder
+User-agent: Googlebot
+Allow: /public-folder/
+
+# Block a specific crawler
+User-agent: BadBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://www.example.com/sitemap.xml
