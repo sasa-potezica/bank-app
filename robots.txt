@@ -1,7 +1,6 @@
 # Allow all crawlers to index everything
 User-agent: *
 Disallow:
-Sitemap: https://sp-bank-app.netlify.app/sitemap.xml
 
 # Disallow crawlers from accessing the admin directory
 User-agent: *
@@ -16,4 +15,4 @@ User-agent: BadBot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://sp-bank-app.netlify.app/sitemap.xml
